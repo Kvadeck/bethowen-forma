@@ -1,0 +1,22 @@
+body {
+  background-color: #5371a3
+}
+
+
+label.required:after {
+  color: red;
+  content: " *";
+}
+
+.form-control:focus {
+  border-color: #9e9e9e;
+}
+
+div#msgSubmit {
+  display: flex;
+  justify-content: center;
+}
+
+.well {
+  min-height: 210px;
+}
