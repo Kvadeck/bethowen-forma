@@ -1,6 +1,7 @@
 $(function () {
 
     // Инициализация функций
+
     maskWraper.call(this, 'phone')
     formValidation.call(this)
 
@@ -147,7 +148,7 @@ $(function () {
         jQuery.ajax({
 
             type: "POST",
-            url: "http://localhost:8080/testSend.php",
+            url: "/testSend.php",
             // contentType: "application/json; charset=utf-8",
             data: JSON.stringify(dataObj),
             // dataType: "json",
